@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.env
+.env.*
+data/
+results/irex/*
+results/irex_saved/*
+!results/irex/results_report.md
+!results/irex/summary.json
+!results/irex/fivefold_cv_comparison.csv
+!results/irex_saved/results_report.md
+!results/irex_saved/summary.json
+!results/irex_saved/fivefold_cv_comparison.csv

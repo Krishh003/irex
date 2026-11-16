@@ -1,0 +1,68 @@
+{
+  "respondents": 104,
+  "features": 102,
+  "class_counts": {
+    "0": 39,
+    "1": 35,
+    "2": 30
+  },
+  "duplicate_input_rows": 3,
+  "test_size": 21,
+  "high_risk_label_assumed": 2,
+  "baseline_first_fold_accuracy": 0.3333333333333333,
+  "auto_screened_first_fold_accuracy": 0.38095238095238093,
+  "auto_screened_first_fold_features_removed": 25,
+  "pai_first_fold_count": 25,
+  "low_impact_first_fold_count": 48,
+  "fivefold_mean_majority_accuracy": 0.37476190476190474,
+  "fivefold_mean_baseline_accuracy": 0.289047619047619,
+  "fivefold_mean_auto_screened_accuracy": 0.36476190476190473,
+  "fivefold_mean_baseline_macro_f1": 0.23812234835454654,
+  "fivefold_mean_auto_screened_macro_f1": 0.31942732648614997,
+  "fivefold_accuracy_differences": [
+    0.04762,
+    0.04762,
+    0.19048,
+    0.14286,
+    -0.05
+  ],
+  "top_pai_question_numbers": [
+    83,
+    79,
+    94,
+    93,
+    13,
+    74,
+    73,
+    75,
+    29,
+    52
+  ],
+  "top_shap_question_numbers": [
+    69,
+    18,
+    87,
+    42,
+    76,
+    52,
+    5,
+    84,
+    85,
+    56
+  ],
+  "top_permutation_question_numbers": [
+    85,
+    80,
+    19,
+    67,
+    92,
+    35,
+    1,
+    36,
+    52,
+    39
+  ],
+  "expert_confirmation_provided": false,
+  "local_explanation_method": "LIME-style weighted Ridge surrogate, NOT official lime",
+  "experimental_note": "All screened comparisons are automatic ablations, not expert-confirmed IREX refinement. Small sample and high dimensionality limit inference."
+}
